@@ -1,0 +1,200 @@
+:root{
+	--color-primary : #fcdb00;
+	--text-color-primary : #010101;
+	--text-color-sec : #313841;
+	--text-color-tri : #555555;
+	--text-color-qurt: #898989;
+	--color-dark: #000000;
+	--color-white: #ffffff;
+}
+.brandimg{
+	padding: 65px 0 105px;
+    background-color: var(--color-primary);
+}
+.mainheader.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+.mainheader .navbar-nav>li>a{
+	color: var(--text-color-primary);
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.inspiration{
+	margin-top: 70px;
+}
+.brandlist li{
+    display: inline-block;
+	margin-right: 30px;
+}
+
+.brandlist li a i{
+	color: var(--text-color-primary);
+}
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right:auto;
+	margin-left: auto;
+	max-width: 100%;
+	overflow: hidden;
+	
+}
+                 /* ################section features css starts from here ###############*/
+.features{
+	padding: 120px 0 80px;
+}
+.features .sec-heading{
+	margin-bottom: 90px;
+}
+.ourThumbnail h4{
+	margin-bottom: 0 0 15px;
+	font-size: 22px;
+	color: var(--text-colo-primary);
+}
+.ourThumbnail p{
+	color: var(text-color-qurt);
+	font-size: 16px;
+}
+.ourThumbnail{
+	margin-bottom: 90px;
+}
+
+											/*-------keep in touch starts from here--------*/
+
+.keepintouch{
+	background-color: #010101;
+	padding: 95px 0 140px;
+}
+.keepintouch .pri-heading{
+	color: var(--color-primary);
+}
+.keepintouch .sec-heading{
+	color: var(--text-color-qurt);
+	margin-bottom: 45px;
+}
+.signin .email{
+	width: calc(175% - 100%);
+	display: inline-block;
+	margin-right: 20px;
+	height: 50px;	
+}
+.signin .email::placeholder{
+	color: var(--text-colo-qurt);
+}
+.signin{
+	margin-bottom: 75px;
+}
+
+.signin .btn{
+	height: 50px;
+	width: 150px;
+	background-color: var(--color-primary);
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid var(--color-primary);
+}
+.signin .btn:hover,
+.signin .btn:focus,
+.signin .btn:active{
+	color: var(--text-colo-primary);
+	background-color: var(--colo-primary);
+	
+}
+.keepintouch .brandlist li a i{
+	color: var(--color-primary);
+	
+}
+.keepintouch .brandlist{
+	margin-bottom: 135px;
+}
+.footerlink li, .footerlink a{
+	color: var(--color-white);
+	font-size: 16px;
+	text-transform:capitalize;
+}
+
+@media all and (min-width: 768px){
+	.mainheader .navbar-brand{
+	padding: 5px 0;
+	}
+	.mainheader{
+	margin-bottom: 55px;
+}
+.mainheader .navbar-nav>li{
+	float: left;
+	margin-bottom: 30px;
+}
+.ipad{
+	margin-left: 90px;
+}
+}
+
+@media all and (max-width:768px){
+	.section: {
+		padding: 50px 0;
+	}
+	.mainheader .navbar-brand {
+		padding: 0 15px;
+	}
+	.mainheader .navbar-toggle {
+		border-color: var(--color-primary);
+	}
+	.mainheader .navbar-toggle .icon-bar {
+		background-color: #010101;
+		
+	}
+	.inspiration {
+		margin-top:0 0 20px;
+	}
+	.ipad{
+		width: 100%;
+	}
+	.features .sec-heading{
+		margin-bottom: 50px;
+	}
+	.ourThumbnail{
+		margin-bottom: 20px;
+		
+	}
+	.signin .email{
+		width: 100%;
+		margin: 0 0 20px;
+	}
+	.signin .btn{
+		width: 100%
+	}
+	.signin{
+		margin-bottom: 30px;
+	}
+	.keepintouch .brandlist{
+		margin-bottom: 30px
+	}
+} 
+
+.pri-heading{
+	font-size: 32px;
+	font-weight: bold;
+	color: var(--text-color-primary);
+	margin-bottom: 20px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+a:link, a:visited{
+	text-decoration: none;
+}
+.sec-heading{
+	font-size: 20px;
+	font-weight: normal;
+	color: var(--text-color-sec);
+	margin-bottom: 20px;
+}
+.para{
+	font-size: 16px;
+	font-weight: normal;
+	color: var(--text-color-tri);
+	margin-bottom: 20px;
+}
